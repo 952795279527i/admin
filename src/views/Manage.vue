@@ -134,7 +134,6 @@ const hide = () => {
   usertext.value = "";
   power.value = "";
   radio.value = "1";
-
   showModal.value = false;
 };
 const hideedit = () => {
