@@ -38,7 +38,7 @@
             <el-icon><Avatar /></el-icon>
             <span>权限管理</span>
           </el-menu-item>
-          <el-menu-item index="3">
+          <el-menu-item index="/about/port">
             <el-icon><document /></el-icon>
             <span>功能</span>
           </el-menu-item>

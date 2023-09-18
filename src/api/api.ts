@@ -1,5 +1,5 @@
 import axios, { InternalAxiosRequestConfig, AxiosInstance, AxiosResponse } from 'axios';
-
+import { Md5 } from "ts-md5";
 const http: AxiosInstance = axios.create({
   timeout : 30000,
   baseURL : process.env.VUE_APP_API_URL,
@@ -15,6 +15,7 @@ if (process.env.VUE_APP_MODE === "development") {
 // 添加请求拦截器
 http.interceptors.request.use(
   (config: InternalAxiosRequestConfig) => {
+  config.headers['strheader'] = '1111'
   // 在发送请求之前做些什么
   return config;
   },
