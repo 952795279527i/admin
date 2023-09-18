@@ -10,7 +10,7 @@
       <el-form-item label="头像">
         <el-upload
           class="avatar-uploader"
-          action="https://47.94.4.201/index.php/index/upload/uploadimg"
+          action="/index.php/index/upload/uploadimg"
           :show-file-list="false"
           :on-success="handleAvatarSuccess"
         >
