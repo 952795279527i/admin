@@ -7,10 +7,10 @@
       <el-form-item label="姓名">
         <el-input v-model="form.name" />
       </el-form-item>
-      <el-form-item label="头像">
+      <el-form-item label="头111像">
         <el-upload
           class="avatar-uploader"
-          action="/index.php/index/upload/uploadimg"
+          action="https://www.zzgoodqc.cn/index.php/index/upload/uploadimg"
           :show-file-list="false"
           :on-success="handleAvatarSuccess"
         >
